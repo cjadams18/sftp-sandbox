@@ -1,0 +1,9 @@
+POST http://localhost:3000/file-upload HTTP/1.1
+Content-Type: multipart/form-data; boundary=XXX
+
+--XXX
+Content-Disposition: form-data; name="file"; filename="2022_DEC_CHECKING.csv"
+Content-Type: text/csv
+
+< /Users/chris/Downloads/2022_DEC_CHECKING.csv
+--XXX--
